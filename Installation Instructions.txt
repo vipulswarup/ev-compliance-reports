@@ -1,0 +1,5 @@
+all js files should be saved in data dictionary/scripts folder
+there are 2 scripts named: updateproerties(create,update event), modifyproperties(delete event) for updating empfile folder type properties
+there is one js script for creating report in each sites documentLibrary/compliance report folder. name id createreport-missingTypes-empfile. to run this script one folder named Reports is required to create in repository folder from where reports will be moved to desired location
+this script can be schduled by modfying cron operations in file schduled-actions-services-context.sml residing at path: alfresco/tomcat/shared/classes/extension folder
+
